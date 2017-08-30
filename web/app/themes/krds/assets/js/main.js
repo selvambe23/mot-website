@@ -15,6 +15,8 @@ Main.prototype.init = function () {
 
     if ($('body').hasClass('home'))
         home();
+    else if( $('body').hasClass('page-template-page-contact') )
+        contact();
     
     common();
 };
